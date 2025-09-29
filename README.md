@@ -29,3 +29,8 @@ Prueba la conexión al final.<br>
 Totalmente reversible.<br>
 
 Puedes elegir si configurar en tu equipo DoT o DoH, en ambos casos las consultas DNS estarán cifradas. En el caso de elegir DoH4Mint también podrás activar la VPN de Cloudflare redirigiendo todo tu tráfico por la VPN.
+
+<h2>✅ Verificar la configuración:</h2>
+
+Una forma rápida de verificar el uso de DoT o DoH es accediendo desde el navegador a la URL https://one.one.one.one/help/
+
