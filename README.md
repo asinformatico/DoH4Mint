@@ -1,5 +1,5 @@
-# DoH4Mint
-Script para automatizar el uso de DoH (DNS over HTTPS) en Linux Mint 21+
+# DoH4Mint and DoT4Mint
+Scripts para automatizar el uso de DoH (DNS over HTTPS) o DoT (DNS ovr TLS) en Linux Mint 21+
 Soporta Cloudflare, Google, Quad9 y AdGuard (a elección por el usuario).
 
 El script realiza una copia de seguridad de la configuración previa para poder volver atrás en cualquier momento.
@@ -28,3 +28,4 @@ Verifica compatibilidad antes de aplicar cambios.<br>
 Prueba la conexión al final.<br>
 Totalmente reversible.<br>
 
+Puedes elegir si configurar en tu equipo DoT o DoH, en ambos casos las consultas DNS estarán cifradas. En el caso de elegir DoH4Mint también podrás activar la VPN de Cloudflare redirigiendo todo tu tráfico por la VPN.
