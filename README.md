@@ -30,6 +30,8 @@ Totalmente reversible.<br>
 
 Puedes elegir si configurar en tu equipo DoT o DoH, en ambos casos las consultas DNS estarán cifradas. En el caso de elegir DoH4Mint también podrás activar la VPN de Cloudflare redirigiendo todo tu tráfico por la VPN.
 
+Es preferible utilizar DoH ya que el tráfico DNS además de ir cifrado, se mezcla con el tráfico HTTPS a diferencia de DoT que utiliza el puerto 853 y puede ser más fácilmente identificado y bloqueado. En ambos casos las consultas van cifradas.
+
 <h2>✅ Verificar la configuración:</h2>
 
 Una forma rápida de verificar el uso de DoT o DoH es accediendo desde el navegador a la URL https://one.one.one.one/help/
